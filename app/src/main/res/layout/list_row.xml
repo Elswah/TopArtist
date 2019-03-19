@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/row_bg"
+    android:layout_height="match_parent">
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/bandImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp" />
+
+    <TextView
+        android:id="@+id/artistName"
+        android:text="Artistname"
+        android:textStyle="bold"
+        android:textColor="#ff212121"
+        android:layout_below="@+id/bandImage"
+        android:layout_centerHorizontal="true"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/playCount"
+        android:text="playCount"
+        android:textStyle="bold"
+        android:textColor="#ff2e2e2e"
+        android:layout_below="@+id/artistName"
+        android:layout_centerHorizontal="true"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/listeners"
+        android:text="listeners"
+        android:textStyle="bold"
+        android:textColor="#ff2e2e2e"
+        android:layout_below="@+id/playCount"
+        android:layout_centerHorizontal="true"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    >
+
+
+
+
+
+</RelativeLayout>
